@@ -1,0 +1,4 @@
+https://dwd1.onrender.com/ping 
+for the pong response
+
+I deployed the Go backend from the exercise 1_13 to Render by connecting the submission repository to Render, creating a new Web Service and choosing the root directory to be 1_13. Going to the link https://dwd1.onrender.com/ping returns the expected response pong which confirms that the deployment works.
