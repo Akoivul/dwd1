@@ -68,7 +68,7 @@ func Router() *gin.Engine {
 
 	router.NoRoute(func(context *gin.Context) {
 		path := context.Request.URL.Path
-		context.String(404, "The only API of this app is /ping. Request received to path "+path+" and this resulted in 404.")
+		context.String(404, "Deployment via Github Actions successful. The only API of this app is /ping. Request received to path "+path+" and this resulted in 404.")
 	})
 	
 	return router
